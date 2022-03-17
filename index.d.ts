@@ -981,7 +981,7 @@ export interface RowBreak {
 export interface WorksheetModel {
 	id: number;
 	name: string;
-	// dataValidations: this.dataValidations.model,
+	dataValidations: any; // TODO : Figure out what the actual type needs to be...
 	properties: WorksheetProperties;
 	pageSetup: Partial<PageSetup>;
 	headerFooter: Partial<HeaderFooter>;
@@ -1795,6 +1795,10 @@ export interface TableColumnProperties {
 	  * The name of the column, also used in the header
 	  */
 	name: string;
+	/**
+	  * The comment associated with the column, if any
+	  */
+	note?: string;
 	/**
 	  * Switches the filter control in the header
 	  * @default false
