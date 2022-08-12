@@ -1,6 +1,6 @@
 {
   "name": "exceljs",
-  "version": "4.4.4",
+  "version": "4.4.5",
   "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
   "private": false,
   "license": "MIT",
@@ -55,7 +55,6 @@
     "benchmark:debug": "node --expose-gc --inspect-brk --trace-deopt benchmark",
     "build": "grunt build",
     "install-build": "npm install && grunt build",
-    "preversion": "npm run clean && npm run build && npm run test:version",
     "postversion": "git push --no-verify && git push --tags --no-verify"
   },
   "husky": {
