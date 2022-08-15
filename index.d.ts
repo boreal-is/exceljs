@@ -1873,7 +1873,7 @@ export interface Table extends Required<TableProperties> {
 	/**
 	 * Add a row of data, either insert at rowNumber or append
 	 */
-	addRow: (values: any[], rowNumber?: number) => void
+	addRow: (values: any[], rowOptions?: object|number, rowNumber?: number) => void
 	/**
 	 * Get column
 	 */
