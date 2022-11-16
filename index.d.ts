@@ -2016,6 +2016,7 @@ export namespace stream {
 			dimensions(): number;
 			columns(): number;
 			getColumn(c: number): Column;
+			name: string;
 		}
 	}
 }
