@@ -1,6 +1,6 @@
 {
   "name": "exceljs",
-  "version": "4.4.11",
+  "version": "4.4.12",
   "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
   "private": false,
   "license": "MIT",
@@ -13,7 +13,7 @@
     "url": "https://github.com/exceljs/exceljs.git"
   },
   "engines": {
-	"node": ">=20.0.0"
+    "node": ">=20.0.0"
   },
   "main": "./excel.js",
   "browser": "./dist/exceljs.min.js",
@@ -103,8 +103,8 @@
     "readable-stream": "^3.6.0",
     "saxes": "^5.0.1",
     "tmp": "^0.2.0",
-    "unzipper": "^0.10.11",
-    "uuid": "^8.3.0"
+    "unzipper": "^0.10.14",
+    "uuid": "^11.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
